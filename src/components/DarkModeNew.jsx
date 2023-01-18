@@ -62,8 +62,8 @@ const DarkModeNew = () => {
       <div className="w-fit py-2 px-3 rounded-md mx-auto space-x-2 bg-slate-100 dark:bg-slate-800 leading-none">
         {buttons.map(({ text, icon }) => (
           <button
-            className={`hover:text-blue-500 ${
-              theme === text && "text-blue-500"
+            className={`hover:text-cyan-500 ${
+              theme === text && "text-cyan-500"
             }`}
             key={text}
             onClick={() => setTheme(text)}
